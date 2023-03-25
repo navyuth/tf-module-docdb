@@ -6,3 +6,6 @@ variable "preferred_backup_window" {}
 variable "skip_final_snapshot" {}
 variable "subnet_ids" {}
 variable "tags" {}
+variable "storage_encrypted" {
+  default = true
+}
